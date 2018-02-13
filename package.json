@@ -1,0 +1,38 @@
+{
+  "name": "espricator",
+  "version": "1.0.0",
+  "description": "information system",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "acl": "^0.4.11",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "~1.15.2",
+    "connect-flash": "~0.1.1",
+    "cookie-parser": "~1.4.3",
+    "express": "~4.14.0",
+    "express-session": "~1.14.1",
+    "mongoose": "^5.0.4",
+    "morgan": "~1.7.0",
+    "passport": "~0.3.2",
+    "passport-local": "~1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hajjifarouk/espricator.git"
+  },
+  "keywords": [
+    "esprit",
+    "information",
+    "system"
+  ],
+  "author": "farouk.hajji@esprit.tn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hajjifarouk/espricator/issues"
+  },
+  "homepage": "https://github.com/hajjifarouk/espricator#readme"
+}
